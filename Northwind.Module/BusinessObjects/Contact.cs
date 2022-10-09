@@ -33,9 +33,9 @@ namespace Northwind.Module.BusinessObjects
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
         private string _Name;
-        [XafDisplayName("Name")]
+        [XafDisplayName("Full Name")]
         [Index(0)]
-        [RuleRequiredField(DefaultContexts.Save, CustomMessageTemplate = "Name can't be empty!")]
+        [RuleRequiredField(DefaultContexts.Save, CustomMessageTemplate = "Full Name can't be empty!")]
         public string Name
         {
             get { return _Name; }
