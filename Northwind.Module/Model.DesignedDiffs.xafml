@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Northwind">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Contact_ListView" Removed="True" />
+          <Item Id="Product_ListView" Removed="True" />
+          <Item Id="Sales_ListView" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Main" Caption="Main" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Contact_ListView" ViewId="Contact_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Product_ListView" ViewId="Product_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Sales_ListView" ObjectKey="" ViewId="SalesDashboard" Caption="Sales" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="22.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <DashboardView Id="SalesDashboard" Caption="Sales" IsNewNode="True">
+      <Items IsNewNode="True">
+        <DashboardViewItem Id="Sales_DashboardViewItem_1" ViewId="Sales_ListView" IsNewNode="True" />
+        <DashboardViewItem Id="Sales_DashboardViewItem_2" ViewId="DashboardViewer_DetailView" Criteria="[Title] = 'Sales Statistics'" IsNewNode="True" />
+      </Items>
+      <Layout IsNewNode="True">
+        <LayoutGroup Id="Main" ShowCaption="False" Index="0" RelativeSize="100" Direction="Horizontal" IsNewNode="True">
+          <LayoutItem Id="Sales_DashboardViewItem_1" ViewItem="Sales_DashboardViewItem_1" Index="0" RelativeSize="46.08108108108108" SizeConstraintsType="Custom" MinSize="15, 38" IsNewNode="True" />
+          <LayoutItem Id="Sales_DashboardViewItem_2" ViewItem="Sales_DashboardViewItem_2" Index="1" RelativeSize="53.91891891891892" SizeConstraintsType="Custom" MinSize="15, 38" IsNewNode="True" />
+        </LayoutGroup>
+      </Layout>
+    </DashboardView>
+  </Views>
+</Application>

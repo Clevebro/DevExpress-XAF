@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Module", "Northwind.Module\Northwind.Module.csproj", "{5F545066-A15F-4445-8562-4EE5A84D2434}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Win", "Northwind.Win\Northwind.Win.csproj", "{F4085FC6-7449-4853-8A6B-72713E5DDEAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Blazor.Server", "Northwind.Blazor.Server\Northwind.Blazor.Server.csproj", "{EFE01D89-2B23-4407-B29E-CB8C72DFCC40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F545066-A15F-4445-8562-4EE5A84D2434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F545066-A15F-4445-8562-4EE5A84D2434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F545066-A15F-4445-8562-4EE5A84D2434}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{5F545066-A15F-4445-8562-4EE5A84D2434}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{5F545066-A15F-4445-8562-4EE5A84D2434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F545066-A15F-4445-8562-4EE5A84D2434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4085FC6-7449-4853-8A6B-72713E5DDEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4085FC6-7449-4853-8A6B-72713E5DDEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4085FC6-7449-4853-8A6B-72713E5DDEAB}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{F4085FC6-7449-4853-8A6B-72713E5DDEAB}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{F4085FC6-7449-4853-8A6B-72713E5DDEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4085FC6-7449-4853-8A6B-72713E5DDEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE01D89-2B23-4407-B29E-CB8C72DFCC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE01D89-2B23-4407-B29E-CB8C72DFCC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE01D89-2B23-4407-B29E-CB8C72DFCC40}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{EFE01D89-2B23-4407-B29E-CB8C72DFCC40}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{EFE01D89-2B23-4407-B29E-CB8C72DFCC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE01D89-2B23-4407-B29E-CB8C72DFCC40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A533B334-B838-4C37-86E8-F4E696AECA54}
+	EndGlobalSection
+EndGlobal
